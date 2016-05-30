@@ -1,0 +1,15 @@
+#define GLIB_DISABLE_DEPRECATION_WARNINGS
+#include <cairo/cairo.h>
+#include <cairo/cairo-deprecated.h>
+#include <cairo/cairo-features.h>
+#include <cairo/cairo-ft.h>
+#include <cairo/cairo-gobject.h>
+#include <cairo/cairo-pdf.h>
+#include <cairo/cairo-ps.h>
+#include <cairo/cairo-quartz-image.h>
+#include <cairo/cairo-quartz.h>
+#include <cairo/cairo-script-interpreter.h>
+#include <cairo/cairo-script.h>
+#include <cairo/cairo-svg.h>
+#include <cairo/cairo-tee.h>
+#include <cairo/cairo-version.h>
