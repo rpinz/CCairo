@@ -16,10 +16,12 @@ struct _cairo_region {};
 #include <cairo-gobject.h>
 #include <cairo-pdf.h>
 #include <cairo-ps.h>
-#include <cairo-quartz-image.h>
-#include <cairo-quartz.h>
 #include <cairo-script-interpreter.h>
 #include <cairo-script.h>
 #include <cairo-svg.h>
 #include <cairo-tee.h>
 #include <cairo-version.h>
+#ifdef __APPLE__
+#include <cairo-quartz-image.h>
+#include <cairo-quartz.h>
+#endif
